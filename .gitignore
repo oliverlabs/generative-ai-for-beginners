@@ -120,6 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.envcopy
 .env
 .venv
 env/
@@ -162,3 +163,7 @@ cython_debug/
 node_modules/
 
 .DS_Store
+
+*.code-workspace
+
+.devcontainer/environment.yml
